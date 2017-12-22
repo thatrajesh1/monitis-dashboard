@@ -1,0 +1,40 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+//$background-color:  #9c4274;
+$background-color: rgba(192,192,192, .3); 
+
+$title-color:       rgba(255, 255, 255, 0.7);//white
+//$title-color:       rgba(0, 0, 0, 1); //black
+//$moreinfo-color:    rgba(255, 255, 255, 0.9);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+//$meter-background:  darken($background-color, 15%);
+$meter-background:  rgba(255,0,0, 1); //red
+
+// ----------------------------------------------------------------------------
+// Widget-meter styles
+// ----------------------------------------------------------------------------
+.widget-meter {
+
+  background-color: $background-color;
+
+  input.meter {
+    background-color: $meter-background;
+    //color: #fff;
+    color: rgba(0,255,0, 1); //green
+  }
+
+  .title {
+    color: $title-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}
