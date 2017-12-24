@@ -1,18 +1,15 @@
 require 'dashing'
-require 'ipaddr'
-
-$config = YAML.load File.open("config.yml")
-$config = $config[:dashing]
 
 configure do
-  set :auth_token, $config[:auth_token]
-  set :protection, :except => :frame_options
+  set :auth_token, 'YOUR_AUTH_TOKEN'
   set :default_dashboard, 'monitis'
 
   helpers do
     def protected!
-      end
+      # Put any authentication code you want in here.
+      # This method is run before accessing any resource.
     end
+  end
 end
 
 map Sinatra::Application.assets_prefix do

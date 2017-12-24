@@ -4,3 +4,12 @@ gem 'dashing'
 
 ## Remove this if you don't need a twitter widget.
 gem 'twitter', '>= 5.9.0'
+
+gem 'dashing'
+gem 'activeresource'
+gem 'newrelic_api'
+gem 'google-api-client'
+
+gem 'httparty'
+gem 'crack'
+gem 'chronic_duration'

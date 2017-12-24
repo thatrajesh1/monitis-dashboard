@@ -1,0 +1,24 @@
+# htaccess information
+:dashing:
+    :auth_user:         ""
+    :auth_pwd:          ""
+    :auth_token:        ""
+    :default_dashboard: ""
+
+# access information for monitis.com integration
+:monitis:
+    :api_key:    "1QCP1E477J94OO44QP4MKM00PT"
+    :api_secret: "7VQ7TAPPVAQPK2VAK592N6HGUD"
+
+# google analytics information
+:google:
+    :service_account_email: ""
+    :key_file:              ""
+    :key_secret:            ""
+    :application_name:      ""
+    :profiles:
+        - ['', '']
+        - ['', '']
+
+:hanzo:
+    :dsn: ""

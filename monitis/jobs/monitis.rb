@@ -1,4 +1,3 @@
-
 SCHEDULER.every '20s' do
 
 array_oapi=0
