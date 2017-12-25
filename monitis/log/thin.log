@@ -1,0 +1,289 @@
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-24-17 23:06 pm"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 07:32:30] "GET /nextgen HTTP/1.1" 200 4757 0.0026
+209.220.148.28 - - [25/Dec/2017 07:32:30] "GET /events HTTP/1.1" 200 - 22.0334
+209.220.148.28 - - [25/Dec/2017 07:32:30] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 07:32:30] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 07:32:30] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 07:32:33] "GET /nextgen HTTP/1.1" 200 4757 0.0026
+209.220.148.28 - - [25/Dec/2017 07:32:33] "GET /events HTTP/1.1" 200 - 3.4229
+209.220.148.28 - - [25/Dec/2017 07:32:34] "GET /views/list.html HTTP/1.1" 200 493 0.0007
+209.220.148.28 - - [25/Dec/2017 07:32:34] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 07:32:34] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:03] "GET /nextgen HTTP/1.1" 200 4757 0.0027
+209.220.148.28 - - [25/Dec/2017 07:33:03] "GET /events HTTP/1.1" 200 - 29.0782
+209.220.148.28 - - [25/Dec/2017 07:33:03] "GET /views/meter.html HTTP/1.1" 200 442 0.0005
+209.220.148.28 - - [25/Dec/2017 07:33:03] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:03] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-24-17 23:06 pm"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 07:33:06] "GET /nextgen HTTP/1.1" 200 4757 0.0023
+209.220.148.28 - - [25/Dec/2017 07:33:06] "GET /events HTTP/1.1" 200 - 2.8889
+209.220.148.28 - - [25/Dec/2017 07:33:06] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:06] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 07:33:06] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 07:33:08] "GET /monitis HTTP/1.1" 200 2359 0.0019
+209.220.148.28 - - [25/Dec/2017 07:33:08] "GET /events HTTP/1.1" 200 - 2.3614
+209.220.148.28 - - [25/Dec/2017 07:33:09] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:10] "GET /currentgen HTTP/1.1" 200 3633 0.0021
+209.220.148.28 - - [25/Dec/2017 07:33:10] "GET /events HTTP/1.1" 200 - 1.4546
+209.220.148.28 - - [25/Dec/2017 07:33:10] "GET /views/text.html HTTP/1.1" 200 175 0.0006
+209.220.148.28 - - [25/Dec/2017 07:33:12] "GET /events HTTP/1.1" 200 - 1.5970
+209.220.148.28 - - [25/Dec/2017 07:33:17] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:18] "GET /monitis HTTP/1.1" 200 2359 0.0021
+209.220.148.28 - - [25/Dec/2017 07:33:18] "GET /events HTTP/1.1" 200 - 0.9216
+209.220.148.28 - - [25/Dec/2017 07:33:18] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:19] "GET /nextgen HTTP/1.1" 200 4757 0.0030
+209.220.148.28 - - [25/Dec/2017 07:33:19] "GET /events HTTP/1.1" 200 - 1.1009
+209.220.148.28 - - [25/Dec/2017 07:33:19] "GET /views/meter.html HTTP/1.1" 200 442 0.0006
+209.220.148.28 - - [25/Dec/2017 07:33:19] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:19] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 07:33:21] "GET /monitis HTTP/1.1" 200 2359 0.0022
+209.220.148.28 - - [25/Dec/2017 07:33:21] "GET /events HTTP/1.1" 200 - 1.8127
+209.220.148.28 - - [25/Dec/2017 07:33:21] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-24-17 23:06 pm"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-24-17 23:06 pm"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 07:35:17] "GET /events HTTP/1.1" 200 - 115.7358
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:80, CTRL+C to stop
+bundler: failed to load command: thin (/usr/local/bin/thin)
+RuntimeError: no acceptor (port is in use or requires root privileges)
+  /var/lib/gems/2.3.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:530:in `start_tcp_server'
+  /var/lib/gems/2.3.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:530:in `start_server'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/lib/thin/backends/tcp_server.rb:16:in `connect'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/lib/thin/backends/base.rb:63:in `block in start'
+  /var/lib/gems/2.3.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run_machine'
+  /var/lib/gems/2.3.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/lib/thin/backends/base.rb:73:in `start'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/lib/thin/server.rb:162:in `start'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/lib/thin/controllers/controller.rb:87:in `start'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+  /var/lib/gems/2.3.0/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+  /usr/local/bin/thin:23:in `load'
+  /usr/local/bin/thin:23:in `<top (required)>'
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:80, CTRL+C to stop
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 18:58:07] "GET /monitis HTTP/1.1" 200 2353 0.0029
+209.220.148.28 - - [25/Dec/2017 18:58:10] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 18:58:15] "GET /nextgen HTTP/1.1" 200 4753 0.0026
+209.220.148.28 - - [25/Dec/2017 18:58:15] "GET /events HTTP/1.1" 200 - 4.4073
+209.220.148.28 - - [25/Dec/2017 18:58:15] "GET /views/meter.html HTTP/1.1" 200 442 0.0005
+209.220.148.28 - - [25/Dec/2017 18:58:15] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 18:58:15] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 18:58:31] "GET /events HTTP/1.1" 200 - 15.5897
+209.220.148.28 - - [25/Dec/2017 18:58:38] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 18:58:38] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 18:58:38] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 18:59:09] "GET /monitis HTTP/1.1" 200 2353 0.0021
+209.220.148.28 - - [25/Dec/2017 18:59:09] "GET /events HTTP/1.1" 200 - 30.6884
+209.220.148.28 - - [25/Dec/2017 18:59:09] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 18:59:12] "GET /currentgen HTTP/1.1" 200 3631 0.0021
+209.220.148.28 - - [25/Dec/2017 18:59:12] "GET /events HTTP/1.1" 200 - 3.4714
+209.220.148.28 - - [25/Dec/2017 18:59:12] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 18:59:16] "GET /events HTTP/1.1" 200 - 3.0512
+209.220.148.28 - - [25/Dec/2017 18:59:20] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 18:59:22] "GET /monitis HTTP/1.1" 200 2353 0.0019
+209.220.148.28 - - [25/Dec/2017 18:59:22] "GET /events HTTP/1.1" 200 - 1.6431
+209.220.148.28 - - [25/Dec/2017 18:59:22] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 18:59:28] "GET /nextgen HTTP/1.1" 200 4753 0.0022
+209.220.148.28 - - [25/Dec/2017 18:59:28] "GET /events HTTP/1.1" 200 - 5.8784
+209.220.148.28 - - [25/Dec/2017 18:59:28] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 18:59:28] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 18:59:28] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 19:00:32] "GET /monitis HTTP/1.1" 200 2353 0.0024
+209.220.148.28 - - [25/Dec/2017 19:00:32] "GET /events HTTP/1.1" 200 - 64.2051
+209.220.148.28 - - [25/Dec/2017 19:00:32] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:00:34] "GET /monitis HTTP/1.1" 200 2353 0.0022
+209.220.148.28 - - [25/Dec/2017 19:00:34] "GET /events HTTP/1.1" 200 - 1.6392
+209.220.148.28 - - [25/Dec/2017 19:00:34] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 19:01:58] "GET /nextgen HTTP/1.1" 200 4753 0.0026
+209.220.148.28 - - [25/Dec/2017 19:01:58] "GET /events HTTP/1.1" 200 - 84.0733
+209.220.148.28 - - [25/Dec/2017 19:01:59] "GET /views/meter.html HTTP/1.1" 200 442 0.0006
+209.220.148.28 - - [25/Dec/2017 19:01:59] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 19:01:59] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+{12426388=>{:label=>"OapiProdCustomMonitor", :value=>"12-25-17 10:36 am"}, 12468548=>{:label=>"CustomLoConnect", :value=>"12-24-17 14:00 pm"}}
+209.220.148.28 - - [25/Dec/2017 19:14:08] "GET /events HTTP/1.1" 200 - 730.0065
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:80, CTRL+C to stop
+209.220.148.28 - - [25/Dec/2017 19:16:41] "GET /nextgen HTTP/1.1" 200 4753 0.0033
+209.220.148.28 - - [25/Dec/2017 19:16:43] "GET /views/meter.html HTTP/1.1" 200 442 0.0005
+209.220.148.28 - - [25/Dec/2017 19:16:43] "GET /views/list.html HTTP/1.1" 200 493 0.0005
+209.220.148.28 - - [25/Dec/2017 19:16:43] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:18:02] "GET /events HTTP/1.1" 200 - 78.7334
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:80, CTRL+C to stop
+209.220.148.28 - - [25/Dec/2017 19:18:34] "GET /nextgen HTTP/1.1" 200 4753 0.0032
+209.220.148.28 - - [25/Dec/2017 19:18:37] "GET /views/meter.html HTTP/1.1" 200 442 0.0005
+209.220.148.28 - - [25/Dec/2017 19:18:37] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 19:18:37] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:18:39] "GET /monitis HTTP/1.1" 200 2353 0.0021
+209.220.148.28 - - [25/Dec/2017 19:18:39] "GET /events HTTP/1.1" 200 - 1.8887
+209.220.148.28 - - [25/Dec/2017 19:18:39] "GET /views/text.html HTTP/1.1" 200 175 0.0006
+209.220.148.28 - - [25/Dec/2017 19:18:40] "GET /currentgen HTTP/1.1" 200 3631 0.0022
+209.220.148.28 - - [25/Dec/2017 19:18:40] "GET /events HTTP/1.1" 200 - 0.9738
+209.220.148.28 - - [25/Dec/2017 19:18:40] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 19:18:41] "GET /monitis HTTP/1.1" 200 2353 0.0020
+209.220.148.28 - - [25/Dec/2017 19:18:41] "GET /events HTTP/1.1" 200 - 1.6025
+209.220.148.28 - - [25/Dec/2017 19:18:41] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 19:18:42] "GET /nextgen HTTP/1.1" 200 4753 0.0024
+209.220.148.28 - - [25/Dec/2017 19:18:42] "GET /events HTTP/1.1" 200 - 0.9180
+209.220.148.28 - - [25/Dec/2017 19:18:43] "GET /views/meter.html HTTP/1.1" 200 442 0.0005
+209.220.148.28 - - [25/Dec/2017 19:18:43] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:18:43] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+Restarting ...
+209.220.148.28 - - [25/Dec/2017 19:19:25] "GET /events HTTP/1.1" 200 - 42.0466
+Waiting for 4 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:80, CTRL+C to stop
+209.220.148.28 - - [25/Dec/2017 19:19:28] "GET /nextgen HTTP/1.1" 200 4753 0.0040
+209.220.148.28 - - [25/Dec/2017 19:19:28] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:28] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:28] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:30] "GET /nextgen HTTP/1.1" 200 4753 0.0030
+209.220.148.28 - - [25/Dec/2017 19:19:30] "GET /events HTTP/1.1" 200 - 2.4109
+209.220.148.28 - - [25/Dec/2017 19:19:30] "GET /views/meter.html HTTP/1.1" 200 442 0.0005
+209.220.148.28 - - [25/Dec/2017 19:19:30] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:30] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:32] "GET /nextgen HTTP/1.1" 200 4753 0.0028
+209.220.148.28 - - [25/Dec/2017 19:19:32] "GET /events HTTP/1.1" 200 - 1.7940
+209.220.148.28 - - [25/Dec/2017 19:19:32] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:32] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:32] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:34] "GET /nextgen HTTP/1.1" 200 4753 0.0027
+209.220.148.28 - - [25/Dec/2017 19:19:34] "GET /events HTTP/1.1" 200 - 1.4547
+209.220.148.28 - - [25/Dec/2017 19:19:34] "GET /views/meter.html HTTP/1.1" 200 442 0.0007
+209.220.148.28 - - [25/Dec/2017 19:19:34] "GET /views/list.html HTTP/1.1" 200 493 0.0005
+209.220.148.28 - - [25/Dec/2017 19:19:34] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:35] "GET /nextgen HTTP/1.1" 200 4753 0.0023
+209.220.148.28 - - [25/Dec/2017 19:19:35] "GET /events HTTP/1.1" 200 - 1.3134
+209.220.148.28 - - [25/Dec/2017 19:19:35] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:35] "GET /views/list.html HTTP/1.1" 200 493 0.0005
+209.220.148.28 - - [25/Dec/2017 19:19:35] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:37] "GET /nextgen HTTP/1.1" 200 4753 0.0022
+209.220.148.28 - - [25/Dec/2017 19:19:37] "GET /events HTTP/1.1" 200 - 1.9839
+209.220.148.28 - - [25/Dec/2017 19:19:37] "GET /views/meter.html HTTP/1.1" 200 442 0.0005
+209.220.148.28 - - [25/Dec/2017 19:19:37] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:37] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:43] "GET /nextgen HTTP/1.1" 200 4753 0.0022
+209.220.148.28 - - [25/Dec/2017 19:19:43] "GET /events HTTP/1.1" 200 - 5.7160
+209.220.148.28 - - [25/Dec/2017 19:19:43] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:19:43] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:43] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:19:57] "GET /nextgen HTTP/1.1" 200 4753 0.0024
+209.220.148.28 - - [25/Dec/2017 19:19:57] "GET /events HTTP/1.1" 200 - 13.7405
+209.220.148.28 - - [25/Dec/2017 19:19:57] "GET /views/meter.html HTTP/1.1" 200 442 0.0006
+209.220.148.28 - - [25/Dec/2017 19:19:57] "GET /views/list.html HTTP/1.1" 200 493 0.0005
+209.220.148.28 - - [25/Dec/2017 19:19:57] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 19:19:59] "GET /monitis HTTP/1.1" 200 2353 0.0027
+209.220.148.28 - - [25/Dec/2017 19:19:59] "GET /events HTTP/1.1" 200 - 2.4522
+209.220.148.28 - - [25/Dec/2017 19:20:00] "GET /views/text.html HTTP/1.1" 200 175 0.0007
+209.220.148.28 - - [25/Dec/2017 19:20:01] "GET /monitis HTTP/1.1" 200 2353 0.0027
+209.220.148.28 - - [25/Dec/2017 19:20:01] "GET /events HTTP/1.1" 200 - 1.6453
+209.220.148.28 - - [25/Dec/2017 19:20:04] "GET /views/text.html HTTP/1.1" 200 175 0.0007
+209.220.148.28 - - [25/Dec/2017 19:20:37] "GET /monitis HTTP/1.1" 200 2353 0.0019
+209.220.148.28 - - [25/Dec/2017 19:20:38] "GET /events HTTP/1.1" 200 - 35.8253
+209.220.148.28 - - [25/Dec/2017 19:20:38] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:20:41] "GET /nextgen HTTP/1.1" 200 4753 0.0032
+209.220.148.28 - - [25/Dec/2017 19:20:41] "GET /events HTTP/1.1" 200 - 3.0070
+209.220.148.28 - - [25/Dec/2017 19:20:41] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:20:41] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+209.220.148.28 - - [25/Dec/2017 19:20:41] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:20:43] "GET /monitis HTTP/1.1" 200 2353 0.0023
+209.220.148.28 - - [25/Dec/2017 19:20:43] "GET /events HTTP/1.1" 200 - 1.9339
+209.220.148.28 - - [25/Dec/2017 19:20:43] "GET /views/text.html HTTP/1.1" 200 175 0.0006
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:80, CTRL+C to stop
+209.220.148.28 - - [25/Dec/2017 19:25:45] "GET /nextgen HTTP/1.1" 200 4753 0.0040
+209.220.148.28 - - [25/Dec/2017 19:25:45] "GET /events HTTP/1.1" 200 - 263.6924
+209.220.148.28 - - [25/Dec/2017 19:25:45] "GET /views/meter.html HTTP/1.1" 200 442 0.0011
+209.220.148.28 - - [25/Dec/2017 19:25:45] "GET /views/list.html HTTP/1.1" 200 493 0.0009
+209.220.148.28 - - [25/Dec/2017 19:25:45] "GET /views/text.html HTTP/1.1" 200 175 0.0009
+209.220.148.28 - - [25/Dec/2017 19:35:45] "GET /nextgen HTTP/1.1" 200 4753 0.0029
+209.220.148.28 - - [25/Dec/2017 19:35:45] "GET /events HTTP/1.1" 200 - 600.3588
+209.220.148.28 - - [25/Dec/2017 19:35:46] "GET /views/meter.html HTTP/1.1" 200 442 0.0006
+209.220.148.28 - - [25/Dec/2017 19:35:46] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 19:35:46] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 19:35:54] "GET /monitis HTTP/1.1" 200 2353 0.0027
+209.220.148.28 - - [25/Dec/2017 19:35:54] "GET /events HTTP/1.1" 200 - 8.1155
+209.220.148.28 - - [25/Dec/2017 19:35:54] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 19:35:56] "GET /currentgen HTTP/1.1" 200 3631 0.0028
+209.220.148.28 - - [25/Dec/2017 19:35:56] "GET /events HTTP/1.1" 200 - 1.9942
+209.220.148.28 - - [25/Dec/2017 19:35:56] "GET /views/text.html HTTP/1.1" 200 175 0.0005
+209.220.148.28 - - [25/Dec/2017 19:35:58] "GET /monitis HTTP/1.1" 200 2353 0.0020
+209.220.148.28 - - [25/Dec/2017 19:35:58] "GET /events HTTP/1.1" 200 - 1.5733
+209.220.148.28 - - [25/Dec/2017 19:35:58] "GET /views/text.html HTTP/1.1" 200 175 0.0004
+================================================================================
+scheduler caught exception:
+invalid date
+/home/ubuntu/monitis/jobs/report.rb:26:in `parse'
+/home/ubuntu/monitis/jobs/report.rb:26:in `block (2 levels) in <top (required)>'
+/home/ubuntu/monitis/jobs/report.rb:22:in `map'
+/home/ubuntu/monitis/jobs/report.rb:22:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/2.3.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/2.3.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+invalid date
+/home/ubuntu/monitis/jobs/table.rb:26:in `parse'
+/home/ubuntu/monitis/jobs/table.rb:26:in `block (2 levels) in <top (required)>'
+/home/ubuntu/monitis/jobs/table.rb:22:in `map'
+/home/ubuntu/monitis/jobs/table.rb:22:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/2.3.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/2.3.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+209.220.148.28 - - [25/Dec/2017 19:37:35] "GET /nextgen HTTP/1.1" 200 4753 0.0027
+209.220.148.28 - - [25/Dec/2017 19:37:35] "GET /events HTTP/1.1" 200 - 96.9818
+209.220.148.28 - - [25/Dec/2017 19:37:35] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:37:35] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:37:35] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 19:44:48] "GET /nextgen HTTP/1.1" 200 4900 0.0023
+209.220.148.28 - - [25/Dec/2017 19:44:48] "GET /events HTTP/1.1" 200 - 433.0156
+209.220.148.28 - - [25/Dec/2017 19:44:48] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:44:48] "GET /views/list.html HTTP/1.1" 200 493 0.0004
+209.220.148.28 - - [25/Dec/2017 19:44:48] "GET /views/text.html HTTP/1.1" 200 175 0.0003
+209.220.148.28 - - [25/Dec/2017 19:45:50] "GET /nextgen HTTP/1.1" 200 4753 0.0026
+209.220.148.28 - - [25/Dec/2017 19:45:50] "GET /events HTTP/1.1" 200 - 61.4053
+209.220.148.28 - - [25/Dec/2017 19:45:50] "GET /views/meter.html HTTP/1.1" 200 442 0.0004
+209.220.148.28 - - [25/Dec/2017 19:45:50] "GET /views/list.html HTTP/1.1" 200 493 0.0003
+209.220.148.28 - - [25/Dec/2017 19:45:50] "GET /views/text.html HTTP/1.1" 200 175 0.0003

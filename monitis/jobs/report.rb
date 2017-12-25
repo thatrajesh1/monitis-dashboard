@@ -46,7 +46,7 @@ SCHEDULER.every '1m', :first_in => 0 do
   #puts "------"
   end if response
   #puts "ooooooooooooooooooooooooooooooooooooooooooo"
-  puts "#{alert_counts.inspect}"
+  #puts "#{alert_counts.inspect}"
 
   status = response['status']
 

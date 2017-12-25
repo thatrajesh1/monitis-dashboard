@@ -1,1 +1,5 @@
-Check out http://shopify.github.com/dashing for more information.
+- dashboard is shell script to start/stop/checklogs for the dashing.
+	- To start run 1) sudo /etc/init.d/dashboard start
+	- To stop run 1) sudo /etc/init.d/dashboard stop
+	- To check logs run 1) sudo /etc/init.d/dashboard logs
+	- To check status of process run 1) sudo /etc/init.d/dashboard status
