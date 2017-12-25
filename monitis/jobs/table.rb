@@ -30,11 +30,11 @@ SCHEDULER.every '1m', :first_in => 0 do
         #puts fd.strftime("%d/%m/%y %R")
         #puts fd.strftime("%m-%d-%y %R %P")
 	if  record['dataName'] == "OapiProdCustomMonitor" || record['dataName'] ==  "CustomLoConnect" || record['dataName'] == "TPO_EP9_CUSTOM_MONITOR" || record['dataName'] ==  "NextGenConceptRelease" || record['dataName'] == "TPO_EP9_CUSTOM_MONITOR" 
-		if !alert_counts.key?(record['dataId']) 
+		#if !alert_counts.key?(record['dataId']) 
 		  
 		  #puts "Inserting #{record['dataName']} .... #{fd.strftime("%m-%d-%y %R %P")}"
 		  alert_counts[record['dataId']] = { label: record['dataName'], value: (fd.strftime("%m-%d-%y %R %P")) }
-		end
+		#end
 	end
 
    # {
@@ -46,10 +46,17 @@ SCHEDULER.every '1m', :first_in => 0 do
   #puts "------"
   end if response
   #puts "ooooooooooooooooooooooooooooooooooooooooooo"
-  puts "#{alert_counts.inspect}"
+  hrows = [
+  { cols: [ {value: 'CustomMonitor Name'}, {value: 'Alert Date'}, {value: 'Recovered Date'}, {value: 'Acknowledged'} ] }
+]
 
-  status = response['status']
+ rows = [
+  { cols: [ {value: 'cell11'}, {value: rand(5)}, {value: rand(5)}, {value: rand(5)} ]},
+  { cols: [ {value: 'cell21'}, {value: rand(5)}, {value: rand(5)}, {value: rand(5)} ]},
+  { cols: [ {value: 'cell31'}, {value: rand(5)}, {value: rand(5)}, {value: rand(5)} ]},
+  { cols: [ {value: 'cell41'}, {value: rand(5)}, {value: rand(5)}, {value: rand(5)} ]}
+]
 
-  #send_event('monitis-recent-alerts', { rows: rows, status: status })
-  send_event('alerts', { items: alert_counts.values })
+  send_event('my-table', { hrows: hrows, rows: rows } )
+
 end

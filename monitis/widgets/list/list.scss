@@ -2,10 +2,13 @@
 // Sass declarations
 // ----------------------------------------------------------------------------
 $background-color:  #12b0c5;
-$value-color:       #fff;
+//$value-color:       #fff;
+$value-color:       #990012;
 
-$title-color:       rgba(255, 255, 255, 0.7);
-$label-color:       rgba(255, 255, 255, 0.7);
+//$title-color:       rgba(255, 255, 255, 0.7);
+$title-color: 		rgba(0, 0, 0, 1); 
+//$label-color:       rgba(255, 255, 255, 0.7);
+$label-color:       #990012;
 $moreinfo-color:    rgba(255, 255, 255, 0.7);
 
 // ----------------------------------------------------------------------------
@@ -50,7 +53,8 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   }
 
   .updated-at {
-    color: rgba(0, 0, 0, 0.3);
+    //color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 1); 
   }
 
   .more-info {
