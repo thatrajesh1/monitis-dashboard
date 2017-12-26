@@ -19,23 +19,38 @@ SCHEDULER.every '1m', :first_in => 0 do
   fd=0
   rd=0
   alert_counts = Hash.new({ value: 0 })
+  ary = Array.new
   rows = response['data'].map do |record|
 	#puts record
     	fd = DateTime.parse(record['failDate'])
 	fd = fd.new_offset('-08:00')
     	rd = DateTime.parse(record['recDate'])
+	rd = rd.new_offset('-08:00')
 
 	#puts "#{record['dataName']} .... #{fd.strftime("%m-%d-%y %R %P")}"
 	#puts fd
         #puts fd.strftime("%d/%m/%y %R")
         #puts fd.strftime("%m-%d-%y %R %P")
 	if  record['dataName'] == "OapiProdCustomMonitor" || record['dataName'] ==  "CustomLoConnect" || record['dataName'] == "TPO_EP9_CUSTOM_MONITOR" || record['dataName'] ==  "NextGenConceptRelease" || record['dataName'] == "TPO_EP9_CUSTOM_MONITOR" 
-		#if !alert_counts.key?(record['dataId']) 
+		if !alert_counts.key?(record['dataId']) 
 		  
 		  #puts "Inserting #{record['dataName']} .... #{fd.strftime("%m-%d-%y %R %P")}"
 		  alert_counts[record['dataId']] = { label: record['dataName'], value: (fd.strftime("%m-%d-%y %R %P")) }
-		#end
+		  if record['ackDate'] == "" 
+			ack = "Not Acknowledged"
+		  else 
+    			ack = DateTime.parse(record['ackDate'])
+			ack = ack.new_offset('-08:00')
+		  end
+		  rows = { cols: [ {class: 'left',value: "#{record['dataName']}"},
+        		{class: 'left',value: (fd.strftime("%m-%d-%y %R %P"))},
+        		{class: 'left',value: (rd.strftime("%m-%d-%y %R %P"))},
+        		{class: 'left',value: "#{ack}"}
+      		  ] }
+    		ary.push(rows)
+		end
 	end
+	#puts ary
 
    # {
    #   name:      record['dataName'].slice(0, 20),
@@ -47,7 +62,7 @@ SCHEDULER.every '1m', :first_in => 0 do
   end if response
   #puts "ooooooooooooooooooooooooooooooooooooooooooo"
   hrows = [
-  { cols: [ {value: 'CustomMonitor Name'}, {value: 'Alert Date'}, {value: 'Recovered Date'}, {value: 'Acknowledged'} ] }
+  { cols: [ {class: 'left',value: 'CustomMonitor Name'}, {class: 'left',value: 'Alert Date'}, {class: 'left',value: 'Recovered Date'}, {class: 'left',value: 'Acknowledged'} ] }
 ]
 
  rows = [
@@ -57,6 +72,6 @@ SCHEDULER.every '1m', :first_in => 0 do
   { cols: [ {value: 'cell41'}, {value: rand(5)}, {value: rand(5)}, {value: rand(5)} ]}
 ]
 
-  send_event('my-table', { hrows: hrows, rows: rows } )
+  send_event('my-table', { hrows: hrows, rows: ary } )
 
 end

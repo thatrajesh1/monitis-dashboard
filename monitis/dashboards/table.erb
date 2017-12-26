@@ -1,18 +1,26 @@
-<% content_for :title do %>Current Gen<% end %>
+<% content_for :title do %>Detailed Custom Alerts<% end %>
 <div class="gridster">
 <center><div style="font-size: 15px">&nbsp;</div></center>
-<center><div style="color:#04B404" style="font-size: 95px">Current Gen Products</div></center>
+<center><div style="color:#04B404" style="font-size: 95px">Custom Alert Details</div></center>
 <center><div style="color:#FF0000" style="font-size: 15px">-Data Source-</div></center>
 <center><div style="font-size: 15px">Monitis.com</div></center>
   <ul>
 
 
 <li data-row="1" data-col="1" data-sizex="4" data-sizey="1">
-  <div data-id="my-table" data-view="Table" data-title="Alerts" data-moreinfo="More information about this table"></div>
+  <div data-id="my-table" data-view="Table" data-title="Alerts" data-moreinfo=""></div>
 </li>
 
-<li data-row="1" data-col="1" data-sizex="1" data-sizey="1" onclick="location.href='http://<%=request.host%>:<%=request.port%>/monitis';">
-    <div data-id="gohome_widget" data-view="Text" data-title="Go DashBoard Home"</div>
+<li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+        <div data-id="pie_widget" data-view="GooglePie"  style="background-color:#A4A4A4" data-title="Last 50 Alerts %" data-colors="#04B409,#FF0000" data-legend_position="bottom"></div>
+</li>
+
+<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="alert_cnt_widget" data-view="List" data-unordered="true" data-title="Alert Count" data-moreinfo="# of times Alerts triggered to NOC"></div>
+</li>
+
+<li data-row="1" data-col="1" data-sizex="1" data-sizey="1" onclick="location.href='http://<%=request.host%>:<%=request.port%>/nextgen';">
+    <div data-id="gohome_widget" data-view="Text" data-title="Go NextGen Home"</div>
  </li>
 
 
