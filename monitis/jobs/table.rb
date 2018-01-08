@@ -15,7 +15,7 @@ SCHEDULER.every '1m', :first_in => 0 do
     true
   )
 
-  response = contact.getRecentAlerts(0, '', '', 200)
+  response = contact.getRecentAlerts(0, '', '', 50)
   fd=0
   rd=0
   alert_counts = Hash.new({ value: 0 })
@@ -25,7 +25,7 @@ SCHEDULER.every '1m', :first_in => 0 do
     	fd = DateTime.parse(record['failDate'])
 	fd = fd.new_offset('-08:00')
     	rd = DateTime.parse(record['recDate'])
-	rd = rd.new_offset('-08:00')
+	#rd = rd.new_offset('-08:00')
 
 	#puts "#{record['dataName']} .... #{fd.strftime("%m-%d-%y %R %P")}"
 	#puts fd

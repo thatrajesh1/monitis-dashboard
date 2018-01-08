@@ -21,6 +21,8 @@ SCHEDULER.every '1m', :first_in => 0 do
   alert_counts = Hash.new({ value: 0 })
   rows = response['data'].map do |record|
 	#puts record
+	puts record['failDate'];
+	puts record['recDate'];
     	fd = DateTime.parse(record['failDate'])
 	fd = fd.new_offset('-08:00')
     	rd = DateTime.parse(record['recDate'])
